@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@huggingface/inference": "^3.12.1",
+    "huggingface": "^1.4.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^8.0.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
