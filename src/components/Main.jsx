@@ -1,6 +1,6 @@
 import { useState } from "react"
 import IngredientsList from "./IngredientsList.jsx"
-import ClaudeRecipe from "./ClaudeRecipe.jsx"
+import MistralRecipe from "./MistralRecipe.jsx"
 import { getRecipeFromMistral } from "../ai.js"
 
 export default function Main(){
@@ -48,7 +48,7 @@ export default function Main(){
                     loading={loading}
                 /> }
 
-            {recipeShown && <ClaudeRecipe recipe={recipe}/>} 
+            {recipeShown && <MistralRecipe recipe={recipe}/>} 
                
                 
             </main>
