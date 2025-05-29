@@ -4,7 +4,7 @@ import MistralRecipe from "./MistralRecipe.jsx"
 import { getRecipeFromMistral } from "../ai.js"
 
 export default function Main(){
-   const [ingredients, setIngredients] = useState(["chicken", "all the main spices", "corn", "heavy cream", "pasta"])
+   const [ingredients, setIngredients] = useState([])
    const [recipeShown, setRecipeShown] = useState(false)
    const [recipe, setRecipe] = useState(null)
    const [loading, setLoading] = useState(false)
